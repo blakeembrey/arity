@@ -1,5 +1,10 @@
 # Arity
 
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Gittip][gittip-image]][gittip-url]
+
 Set a functions arity (the argument count) by proxying function calls.
 
 ## When would I use this?
@@ -30,3 +35,12 @@ threeArgs.length; //=> 3
 ## License
 
 MIT
+
+[npm-image]: https://img.shields.io/npm/v/arity.svg?style=flat
+[npm-url]: https://npmjs.org/package/arity
+[travis-image]: https://img.shields.io/travis/blakeembrey/arity.svg?style=flat
+[travis-url]: https://travis-ci.org/blakeembrey/arity
+[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/arity.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/blakeembrey/arity?branch=master
+[gittip-image]: https://img.shields.io/gittip/blakeembrey.svg?style=flat
+[gittip-url]: https://www.gittip.com/blakeembrey
