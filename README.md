@@ -14,14 +14,14 @@ It's unlikely you'll ever need to use this utility in everyday development. The 
 ## Installation
 
 ```
-npm install blakeembrey/arity --save
+npm install util-arity --save
 ```
 
 ## Usage
 
 ```javascript
 var fn    = function () {};
-var arity = require('arity');
+var arity = require('util-arity');
 
 var oneArg    = arity(1, fn);
 var twoArgs   = arity(2, fn);
@@ -36,8 +36,8 @@ threeArgs.length; //=> 3
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/arity.svg?style=flat
-[npm-url]: https://npmjs.org/package/arity
+[npm-image]: https://img.shields.io/npm/v/util-arity.svg?style=flat
+[npm-url]: https://npmjs.org/package/util-arity
 [travis-image]: https://img.shields.io/travis/blakeembrey/arity.svg?style=flat
 [travis-url]: https://travis-ci.org/blakeembrey/arity
 [coveralls-image]: https://img.shields.io/coveralls/blakeembrey/arity.svg?style=flat
