@@ -1,6 +1,6 @@
 {
   "name": "util-arity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set the length of a function.",
   "main": "arity.js",
   "typings": "arity.d.ts",
