@@ -1,3 +1,3 @@
-declare function arity (arity: number, fn: Function): Function;
+declare function arity (arity: number, fn: (...args: any[]) => any): (...args: any[]) => any;
 
 export = arity;
