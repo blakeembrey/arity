@@ -4,6 +4,10 @@
   "description": "Set the length of a function.",
   "main": "arity.js",
   "typings": "arity.d.ts",
+  "files": [
+    "arity.d.ts",
+    "arity.js"
+  ],
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },
