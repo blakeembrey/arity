@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Set the length of a function.",
   "main": "arity.js",
+  "typings": "arity.d.ts",
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },

@@ -3,7 +3,6 @@
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
 
 Set a functions arity (the argument count) by proxying function calls.
 
@@ -32,6 +31,10 @@ twoArgs.length; //=> 2
 threeArgs.length; //=> 3
 ```
 
+## TypeScript
+
+The typings for this project are available for node module resolution with TypeScript.
+
 ## License
 
 MIT
@@ -42,5 +45,3 @@ MIT
 [travis-url]: https://travis-ci.org/blakeembrey/arity
 [coveralls-image]: https://img.shields.io/coveralls/blakeembrey/arity.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/blakeembrey/arity?branch=master
-[gittip-image]: https://img.shields.io/gittip/blakeembrey.svg?style=flat
-[gittip-url]: https://www.gittip.com/blakeembrey
