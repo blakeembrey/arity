@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/blakeembrey/arity",
   "devDependencies": {
-    "mocha": "~3.1.2",
+    "mocha": "~3.2.0",
     "istanbul": "~0.4.5"
   }
 }
