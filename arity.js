@@ -3,17 +3,21 @@ var FUNCTIONS = {};
 /**
  * Create a function wrapper that specifies the argument length.
  *
- * @param  {Number}   arity
+ * @param  {number}   arity
  * @param  {Function} fn
  * @return {Function}
  */
 module.exports = function (arity, fn) {
   if (!FUNCTIONS[arity]) {
-    var params = Array(arity + 1).join(', _').substr(2);
+    var params = [];
+
+    for (var i = 0; i < arity; i++) {
+      params.push('_' + i);
+    }
 
     FUNCTIONS[arity] = new Function(
       'fn',
-      'return function (' + params + ') { return fn.apply(this, arguments); }'
+      'return function (' + params.join(', ') + ') { return fn.apply(this, arguments); }'
     );
   }
 

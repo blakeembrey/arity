@@ -1,6 +1,6 @@
 /* global describe, it */
 
-var arity  = require('./');
+var arity = require('./');
 var assert = require('assert');
 
 /**
