@@ -8,11 +8,11 @@
 
 > Set a functions arity (the argument count) by proxying function calls.
 
-**P.S.** If you need need to enforce arity and don't care about argument length or `this`, use [`nary`](https://github.com/blakeembrey/nary). It's magnitudes faster than using `.apply` to proxy arguments.
+**P.S.** If you don't care about `this` and want to receive the exact arity of function arguments, use [`nary`](https://github.com/blakeembrey/nary). It uses function invocation over `.apply` to proxy arguments.
 
-## When would I use this?
+## Why would I use this?
 
-It's unlikely you'll need to use this utility in everyday development. The reason I wrote it was for functional utilities and backward compatibility with user expectations. For example, many modules use function arity to decide how the function behaves (e.g. error middleware in `express`, callbacks in `mocha`).
+You probably won't. The reason it needs to exist is for functional utilities and backward compatibility with user expectations. Many modules use function arity to decide how the function should behave (e.g. middleware in `express` or callbacks in `mocha`).
 
 ## Installation
 
