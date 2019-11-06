@@ -4,11 +4,10 @@
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/arity.svg)](https://greenkeeper.io/)
 
 > Set a functions arity (the argument count) by proxying function calls.
 
-**P.S.** If you don't care about `this` and want to receive the exact arity of function arguments, use [`nary`](https://github.com/blakeembrey/nary). It uses function invocation over `.apply` to proxy arguments.
+**P.S.** If you don't care about `this` and want to receive the exact arity of function arguments, use [`nary`](https://github.com/blakeembrey/nary). It uses function invocation (faster!) over `.apply` to proxy arguments.
 
 ## Why would I use this?
 
